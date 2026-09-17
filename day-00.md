@@ -10,3 +10,4 @@ I learned about the difference between the windows powershell and the linux prom
 
 - I, then failed to test the key through github, with the message `The authenticity of host 'github.com (140.82.121.4)' can't be established.`, turned out to be a 2FA issue, that I resolved by simply passing the OTP into github.
 
+- I also started the bandit challenge, hosted by overthewire.org, finished a couple of challenges

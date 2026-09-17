@@ -1,0 +1,11 @@
+- Bandit 0 -> 1
+  - I first used the `ls` command to inspect the contents of the directory. There was a readme file. 
+  - I then used the `du readme` command and found out that the message inside was 4 bytes, but that didn't help me in any way.
+  - Lastly, I used the `cat readme` command and found the password for the next level
+  - 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
+
+- Bandit 1 -> 2
+  - I first used the `ls` command to find what the contents of the directory were. There was a file named "-".
+  - My first attempt was to read the file with `cat -` but `-` refers to STDIN/STDOUT, so it couldn't be accessed as a file.
+  - Instead, I accessed it with `cat ./-` which refers to the actual location of the file
+  - PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
